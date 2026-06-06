@@ -1,0 +1,8 @@
+{
+  "events_per_sec": 45000,
+  "e2e_latency_ms": 780,
+  "embedding_throughput_per_sec": 2100,
+  "kafka_consumer_lag_events": 420,
+  "qdrant_upsert_throughput_per_sec": 2100,
+  "redis_streams_throughput_per_sec": 52000
+}
