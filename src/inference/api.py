@@ -1,4 +1,3 @@
-"""StreamMind real-time inference API with SSE streaming"""
 import asyncio, json, time
 from fastapi import FastAPI, Query
 from fastapi.responses import StreamingResponse
