@@ -15,7 +15,6 @@ QUERY_LATENCY  = Histogram("streammind_query_latency_seconds", "Query latency")
 qdrant = QdrantClient("http://localhost:6333")
 openai = AsyncOpenAI()
 embedder = SentenceTransformer("all-MiniLM-L6-v2")
-
 @app.get("/stream/search")
 async def stream_search(q: str = Query(..., description="Search query"), top_k: int = 5):
     """Search over live streaming data and stream back an LLM-generated answer."""
