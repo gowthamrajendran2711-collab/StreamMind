@@ -1,4 +1,4 @@
-"""Kafka producer for test event generation"""
+
 import json, time, uuid, random
 from kafka import KafkaProducer
 
